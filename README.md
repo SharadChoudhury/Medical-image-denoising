@@ -1,2 +1,5 @@
 # Medical-image-denoising
-A convolutional autoencoder model for denoising images . Here i used the mini mias mammography dataset available at http://peipa.essex.ac.uk/info/mias.html.
+A convolutional autoencoder model for denoising images . Here I have used the mini mias mammography dataset available at http://peipa.essex.ac.uk/info/mias.html.
+
+Autoencoders are a specific type of feedforward neural networks where the input is the same as the output. They compress the input into a lower-dimensional code and then reconstruct the output from this representation.
+Convolutional Autoencoder is a variant of Convolutional Neural Networks that are used as the tools for unsupervised learning of convolution filters. They are generally applied in the task of image reconstruction to minimize reconstruction errors by learning the optimal filters. Once they are trained in this task, they can be applied to any input in order to extract features. Convolutional Autoencoders are general-purpose feature extractors differently from general autoencoders that completely ignore the 2D image structure. In autoencoders, the image must be unrolled into a single vector and the network must be built following the constraint on the number of inputs.
